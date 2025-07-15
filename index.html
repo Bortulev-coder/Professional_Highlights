@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Главная | Обо мне</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+      color: #333;
+    }
+    header {
+      background-color: #2f80ed;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      flex: 1 1 100%;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex: 1 1 100%;
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: white;
+      margin: 0.5rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .profile-img {
+      width: 100%;
+      max-width: 640px;
+      border-radius: 20px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+    .about-text {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      text-align: center;
+      background: white;
+      margin-top: 1.5rem;
+      padding: 1.5rem;
+      border-radius: 20px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 640px;
+    }
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.2rem;
+        text-align: center;
+      }
+      .about-text {
+        font-size: 1rem;
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Александр Сергеевич Бортулев</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="about_me.html">Обо мне</a>
+    </nav>
+  </header>
+
+  <main>
+    <img src="your-photo.jpg" alt="Фото Александра Бортулева" class="profile-img" />
+
+    <div class="about-text">
+      <p>Здравствуйте! Меня зовут <strong>Александр Сергеевич Бортулев</strong>,<br> я — олимпиадник и энтузиаст науки.</p>
+      <p>Добро пожаловать на мой персональный сайт. Здесь вы можете узнать <a href="about_me.html" style="color: #2f80ed; font-weight: bold; text-decoration: none;">обо мне</a>, посмотреть мои достижения</p>
+    </div>
+  </main>
+</body>
+</html>

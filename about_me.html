@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Обо мне | Достижения</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+      color: #333;
+    }
+    header {
+      background-color: #2f80ed;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      flex: 1 1 100%;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex: 1 1 100%;
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: white;
+      margin: 0.5rem 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .profile-img {
+      width: 100%;
+      max-width: 640px;
+      border-radius: 20px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+    .about-text {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      text-align: left;
+      background: white;
+      margin-top: 2rem;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      max-width: 640px;
+      width: 100%;
+    }
+    .about-text strong {
+      display: block;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    .about-text ul {
+      padding-left: 1.2rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .about-text li {
+      margin-bottom: 0.5rem;
+    }
+    @media (max-width: 768px) {
+      .about-text {
+        padding: 1.5rem;
+        font-size: 1rem;
+      }
+      .about-text strong {
+        font-size: 1.1rem;
+      }
+    }
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.2rem;
+      }
+      nav a {
+        font-size: 0.9rem;
+        margin: 0.5rem;
+      }
+      .about-text {
+        padding: 1rem;
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Александр С. Бортулев</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="about_me.html">Обо мне</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="about-text">
+      <img src="pen.jpg" alt="Описание изображения" class="profile-img" />
+      <strong>Обо мне</strong>
+      <p>Я, Бортулев Александр Сергеевич, родился 15 марта 2008 года. Вырос в интеллигентной семье врачей и с ранних лет питаю неугасимый интерес к естественно‑научным дисциплинам: химии, физике, математике и информатике. Обучаюсь в школе № 281 Адмиралтейского района Санкт‑Петербурга, где с энтузиазмом развиваю свои таланты и достигаю высоких результатов.</p>
+
+      <strong>Образовательные практики и научные стажировки:</strong>
+      <ul>
+        <li>Проходил обучение в различных научных лабораториях, постигая методики современного эксперимента.</li>
+        <li>Участник профильной смены по химии в Образовательном центре «Сириус».</li>
+        <li>Успешно прошёл курс «Инфохимия для старшеклассников» университета ИТМО.</li>
+        <li>Принял участие в «Летней практике школьников по физике» при университете ИТМО.</li>
+      </ul>
+
+      <strong>Олимпийские и конкурсные достижения:</strong>
+      <ul>
+        <li>Победитель Всероссийского IT‑раунда.</li>
+        <li>Победитель регионального конкурса «Лабиринты науки» по информатике.</li>
+        <li>Призёр региональной олимпиады «Биопрактикум» по биологии.</li>
+        <li>Победитель соревнования по программированию «Битва алгоритмов».</li>
+        <li>Призёр II степени перечневой олимпиады «Бельчонок» по химии.</li>
+        <li>Призёр регионального этапа Всероссийской олимпиады школьников по химии.</li>
+        <li>Призёр перечневой олимпиады «Открытая олимпиада школьников» по химии.</li>
+        <li>Призёр перечневой олимпиады «Гранит науки» по химии (9 класс).</li>
+        <li>Абсолютный победитель олимпиады «Гранит науки» по химии (10 класс).</li>
+      </ul>
+
+      <strong>Школа при МФТИ (ЗФТШ):</strong>
+      <ul>
+        <li>Окончил 10 класс с отличием по информатике, химии, физике и биологии.</li>
+        <li>Окончил 9 класс с отличием по химии и биологии.</li>
+      </ul>
+
+      <strong>Онлайн‑курсы и программы дополнительного образования:</strong>
+      <ul>
+        <li>«Основы общей химии» на платформе «Формула Единства».</li>
+        <li>«Создание сайтов. Front‑end разработка» на платформе Hello World.</li>
+        <li>«Инфохимия для старшеклассников» (ИТМО).</li>
+        <li>«Летняя практика школьников по физике» (ИТМО).</li>
+      </ul>
+
+      <strong>Профильные курсы Образовательного центра «Сириус»:</strong>
+      <ul>
+        <li>Курс «Теория вероятностей и математическая статистика»</li>
+        <li>Курс «Дополнительные главы химии. 8 класс»</li>
+        <li>Курс «Дополнительные главы биологии. 7 класс»</li>
+        <li>Курс «Дополнительные главы биологии. 8 класс»</li>
+        <li>Курс «Спецкурс. Химия комплексных соединений. 10–11 классы»</li>
+        <li>Курс «Спецкурс. Спектроскопия ЯМР. 10–11 классы»</li>
+        <li>Курс «Дополнительные главы химии. 9 класс»</li>
+        <li>Курс «Дополнительные главы химии. 9 класс. v1.8»</li>
+        <li>Курс «Дополнительные главы химии. 10 класс»</li>
+        <li>Курс «Дополнительные главы химии. 11 класс»</li>
+        <li>Курс «Дополнительные главы биологии: биохимия. 10 класс»</li>
+        <li>Курс «Введение в программирование на языке C++»</li>
+        <li>Курс «Введение в программирование на языке Python»</li>
+        <li>Профильный модуль апрельской программы по химии (122 академических часа)</li>
+      </ul>
+
+      <strong>Дополнительный курс:</strong>
+      <ul>
+        <li>«Курс Дополнительные главы физики: геометрическая оптика. 8 класс».</li>
+      </ul>
+
+      <p>Каждое упомянутое достижение и завершённый курс отражает мою неугасимую тягу к знаниям, стремление к совершенству и готовность преодолевать самые смелые научные и технические вызовы.</p>
+    </div>
+  </main>
+</body>
+</html>
